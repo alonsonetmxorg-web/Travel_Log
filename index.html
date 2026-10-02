@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>20 Days, Berlin to Mustang</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <figure class="hero-photo">
+      <img src="assets/photos/cover.jpg" alt="Alonso in a painted jaguar mask">
+    </figure>
+    <div class="hero-text">
+      <p class="eyebrow">Berlin ♥ Kathmandu</p>
+      <h1>Surprises<br><em>coming.</em></h1>
+      <p class="lede" id="lede">
+        While I'm away, one little door opens here every day — photos, songs,
+        maps and voice notes, just for you.
+      </p>
+      <p class="status" id="status"></p>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="section-title">The days</h2>
+    <ol class="grid" id="grid"></ol>
+  </main>
+
+  <footer>
+    <p>made with love, from very far away</p>
+  </footer>
+
+  <dialog id="day-dialog">
+    <button class="close" id="close" aria-label="Close">×</button>
+    <div id="day-content"></div>
+  </dialog>
+
+  <script src="days.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
