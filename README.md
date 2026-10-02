@@ -1,4 +1,4 @@
-# 20 Days, Berlin to Mustang
+# 20 Days, Berlin to Kathmandu
 
 A little website for while I'm in Nepal. One day unlocks every midnight (Berlin time).
 
