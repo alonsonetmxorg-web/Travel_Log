@@ -43,7 +43,14 @@ const DAYS = [
   // Day 3
   {},
   // Day 4
-  {},
+  {
+    title: "I fixed the platform, finally",
+    note: "Hi my dear, I finally managed to fix the website, so here you go. I missed you a lot yesterday, keep thinking about you troughout the day and wanting to have 15 minutes by my side to continue the day, I am planning a trip with my colleague Ben, I will tell you more about him in the upcoming days.",
+    photo: "assets/photos/photo/day04.jpeg",
+    caption: "What do you think about this art? Why do people from Nepal put eyes on everything?",
+    audio: "assets/photos/audio/day04.mp4",
+    map: "27.7154,85.3123",
+  },
   // Day 5
   {},
   // Day 6
